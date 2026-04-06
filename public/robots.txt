@@ -1,0 +1,6 @@
+User-agent: *
+Disallow: /search
+Disallow: /results
+Disallow: /saved
+Allow: /shared/
+Allow: /login
