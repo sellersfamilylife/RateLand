@@ -17,7 +17,7 @@ import { createClient } from "https://esm.sh/@supabase/supabase-js@2";
 // ── CORS headers (Supabase Edge Functions require explicit CORS) ────────
 
 const corsHeaders = {
-  "Access-Control-Allow-Origin": "*",
+  "Access-Control-Allow-Origin": "https://rateland.pages.dev",
   "Access-Control-Allow-Headers":
     "authorization, x-client-info, apikey, content-type",
 };
